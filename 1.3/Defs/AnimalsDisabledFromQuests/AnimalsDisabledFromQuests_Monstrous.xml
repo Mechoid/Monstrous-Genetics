@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+		<defName>GR_DisabledQuestAnimalsMonstrousGenetics</defName>
+		<disabledFromQuestsPawns>
+
+		</disabledFromQuestsPawns>
+	</AnimalBehaviours.AnimalsDisabledFromQuestsDef>
+</Defs>

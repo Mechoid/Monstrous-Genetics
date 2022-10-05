@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!--=============== Genetic Material ====================-->
+
+	<ThingDef ParentName="GR_GeneticsBase">
+		<defName>GR_PiscineGenetic</defName>
+		<label>piscine genome</label>
+		<description>A payload of piscine genetic material. Can be used at the genomorpher to create a growth cell of a hybrid animal. This tier 1 genome can be used as either a primary or secondary genome.\n\n&lt;color=#E5E54C&gt;Gameplay effect:&lt;/color&gt; All piscine hybrids have increased movement speed and resistances in water, but are generally cumbersome outside it.\n\n&lt;color=#E5E54C&gt;Extraction:&lt;/color&gt; Can be extracted by using the Monstrous Genome Excavator on a piscine wyvern corpse.</description>
+		<statBases>
+			<MarketValue>250</MarketValue>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Item/GenomePiscine</texPath>
+		</graphicData>
+	</ThingDef>
+
+
+</Defs>

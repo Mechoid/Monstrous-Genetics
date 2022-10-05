@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneticRim.ExtractableAnimalsList>
+		<defName>GR_PiscineExtractionList</defName>
+		<tier>monstrous</tier>
+		<itemProduced>GR_PiscineGenetic</itemProduced>
+		<extractableAnimals>
+			<li>Jyuratodus</li>
+			<li>Plesioth</li>
+			<li>Lavasioth</li>
+			<li>Zamtrios</li>
+		</extractableAnimals>
+	</GeneticRim.ExtractableAnimalsList>
+</Defs>

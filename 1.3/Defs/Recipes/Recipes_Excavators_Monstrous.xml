@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<RecipeDef ParentName="GR_ExcavatorRecipeBase">
+		<defName>GR_CraftMonstrousGenomeExcavator</defName>
+		<label>Craft Monstrous Genome excavator</label>
+		<description>Craft a genome excavator to extract genomes from tamed or dead animals. This excavator can extract monstrous genomes.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plasteel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>MHLeathers</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>Plasteel</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+			<categories>
+				<li>MHLeathers</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<GR_MonstrousGenomeExcavator>1</GR_MonstrousGenomeExcavator>
+		</products>		
+	</RecipeDef>
+</Defs>

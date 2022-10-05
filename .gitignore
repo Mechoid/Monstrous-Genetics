@@ -93,6 +93,10 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+# Krita working files. Let's not torment others with my shitty layering practices. // Mechoid
+*.kra
+*.kra~
+
 # Chutzpah Test files
 _Chutzpah*
 
